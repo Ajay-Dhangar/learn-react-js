@@ -1,0 +1,51 @@
+.main-container {
+    margin: 5px;
+    padding: 10px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-content {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-content .que {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+}
+
+.main-content .ans {
+    font-weight: normal;
+    color: #333;
+    margin: 5px 10px;
+}
+.main-content .ans ul {
+    padding: auto 10px;
+    margin: 10px 10px;
+    line-height: 1.5em;
+}
+
+.main-content h3 {
+    font-size: 1.5em;
+}
+
+.cmd {
+    font-family: monospace;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
