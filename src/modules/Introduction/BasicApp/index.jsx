@@ -53,12 +53,17 @@ function BasicApp() {
             </BrowserWindow>
           </div>
           <p className="ans">
-            6. You can now open the my-app directory in your code editor and
-            start building your app.
-          </p>
-          <p className="ans">
-            7. To stop the app, press <code>Ctrl + C</code> in the terminal
-            where the app is running.
+            6. To stop the app, press{" "}
+            <code
+              style={{
+                backgroundColor: "rgba(0, 0, 0, 0.1)",
+                padding: "0.2em 0.4em",
+                borderRadius: "3px",
+              }}
+            >
+              Ctrl + C
+            </code>{" "}
+            in the terminal where the app is running.
           </p>
           <p>
             <b>
@@ -67,19 +72,32 @@ function BasicApp() {
               directory.
             </b>
           </p>
-          <p>
-            <strong>Note:</strong> If you’re using npm 5.2.0 or higher, you can
-            also create a new React app using <code>npx</code> by running:
-          </p>
-          <br />
-          <code className="cmd">npx create-react-app my-app</code>
-          <br /> <br />
-          <p>
-            <strong>What is npx?</strong> npx is a package runner tool that
-            comes with npm 5.2.0 or higher. It’s used to execute packages
-            without installing them globally. npx is also used to run the
-            create-react-app package without installing it globally.
-          </p>
+          <div className="notes">
+            <p>
+              <strong>Note:</strong> If you’re using npm 5.2.0 or higher, you
+              can also create a new React app using{" "}
+              <code
+                style={{
+                  backgroundColor: "rgba(0, 0, 0, 0.5)",
+                  padding: "0.2em 0.4em",
+                  borderRadius: "3px",
+                }}
+              >
+                npx
+              </code>{" "}
+              by running:
+            </p>
+            <br />
+            <code className="cmd">npx create-react-app my-app</code>
+            <br /> <br />
+            <p>
+              <strong>What is npx?</strong> <br /> <br />
+              npx is a package runner tool that comes with npm 5.2.0 or higher.
+              It’s used to execute packages without installing them globally.
+              npx is also used to run the create-react-app package without
+              installing it globally.
+            </p>
+          </div>
         </div>
       </div>
     </div>

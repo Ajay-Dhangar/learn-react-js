@@ -1,0 +1,28 @@
+.footer {
+    background: linear-gradient(90deg, #3b6065, #102f36);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+
+.footer .container .row {
+    display: flex;
+    gap: 1rem;
+}
+.footer .container .row .col-md-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer .container .row .col-md-12 .inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
